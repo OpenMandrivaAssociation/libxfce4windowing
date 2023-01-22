@@ -1,9 +1,9 @@
 %define api		0
 %define major		0
-%define libname		%mklibname xfce4windowing %{api} %{major}
-%define libnameui	%mklibname xfce4windowingui %{api} %{major}
-%define girname		%mklibname xfce4windowing-gir %{api}.%{major}
-%define girnameui	%mklibname xfce4windowingui-gir %{api}.%{major}
+%define libname		%mklibname xfce4windowing
+%define libnameui	%mklibname xfce4windowingui
+%define girname		%mklibname xfce4windowing-gir
+%define girnameui	%mklibname xfce4windowingui-gir
 %define devname		%mklibname xfce4windowing -d
 
 %define url_ver %(echo %{version} | cut -d. -f1,2)
@@ -11,7 +11,7 @@
 Name:		libxfce4windowing
 Summary:	Windowing concept abstraction library for X11 and Wayland
 Version:	4.19.1
-Release:	%mkrel 1
+Release:	1
 License:	LGPLv2+
 Group:		Graphical desktop/Xfce
 Url:		https://gitlab.xfce.org/xfce/libxfce4windowing
@@ -97,7 +97,7 @@ features in these protocol extensions.
 %autosetup -p1
 
 %build
-%xdt_autogen
+#xdt_autogen
 %configure
 %make_build
 
