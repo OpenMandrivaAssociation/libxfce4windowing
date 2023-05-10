@@ -10,7 +10,7 @@
 
 Name:		libxfce4windowing
 Summary:	Windowing concept abstraction library for X11 and Wayland
-Version:	4.19.1
+Version:	4.19.2
 Release:	1
 License:	LGPLv2+
 Group:		Graphical desktop/Xfce
