@@ -97,7 +97,7 @@ features in these protocol extensions.
 %autosetup -p1
 
 %build
-#xdt_autogen
+%xdt_autogen
 %configure
 %make_build
 
