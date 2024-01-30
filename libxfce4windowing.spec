@@ -104,7 +104,9 @@ features in these protocol extensions.
 %install
 %make_install
 
-%files -n %{libname}
+%find_lang %{name}
+
+%files -n %{libname} -f %{name}.lang
 %license COPYING
 %{_libdir}/libxfce4windowing-%{api}.so.%{major}{,.*}
 
