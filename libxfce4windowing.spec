@@ -16,7 +16,7 @@ License:	LGPLv2+
 Group:		Graphical desktop/Xfce
 Url:		https://gitlab.xfce.org/xfce/libxfce4windowing
 Source0:	https://archive.xfce.org/src/xfce/libxfce4windowing/%{url_ver}/libxfce4windowing-%{version}.tar.bz2
-BuildRequires:	xfce4-dev-tools
+#BuildRequires:	xfce4-dev-tools
 BuildRequires:	pkgconfig(gdk-3.0)
 BuildRequires:	pkgconfig(gdk-pixbuf-2.0)
 BuildRequires:	pkgconfig(gdk-wayland-3.0)
