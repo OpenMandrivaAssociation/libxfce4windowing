@@ -129,5 +129,6 @@ features in these protocol extensions.
 %{_includedir}/xfce4/libxfce4windowing{,ui}/
 %{_libdir}/libxfce4windowing{,ui}-%{api}.so
 %{_libdir}/pkgconfig/libxfce4windowing{,ui}-%{api}.pc
+%{_libdir}/pkgconfig/libxfce4windowing-x11-0.pc
 %{_datadir}/gir-1.0/Libxfce4windowing-%{api}.%{major}.gir
 %{_datadir}/gir-1.0/Libxfce4windowingui-%{api}.%{major}.gir
