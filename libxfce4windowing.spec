@@ -10,7 +10,7 @@
 
 Name:		libxfce4windowing
 Summary:	Windowing concept abstraction library for X11 and Wayland
-Version:	4.19.3
+Version:	4.20.0
 Release:	1
 License:	LGPLv2+
 Group:		Graphical desktop/Xfce
@@ -26,9 +26,13 @@ BuildRequires:	pkgconfig(glib-2.0)
 BuildRequires:	pkgconfig(gobject-2.0)
 BuildRequires:	pkgconfig(gobject-introspection-1.0)
 BuildRequires:	pkgconfig(gtk+-3.0)
+BuildRequires:  pkgconfig(libdisplay-info)
 BuildRequires:	pkgconfig(libwnck-3.0)
 BuildRequires:	pkgconfig(wayland-client)
 BuildRequires:	pkgconfig(wayland-scanner)
+BuildRequires:  pkgconfig(wayland-protocols)
+BuildRequires:  pkgconfig(x11)
+BuildRequires:  pkgconfig(xrandr)
 
 %description
 Libxfce4windowing is an abstraction library that attempts to present windowing
